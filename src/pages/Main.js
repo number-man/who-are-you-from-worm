@@ -4,7 +4,8 @@ const Main = () => {
     return (
         <div>
             <br></br><br></br><br></br><br></br><br></br>
-            <p className="description"><span className="title">MAI houses</span> - это онлайн сервис, который помогает студентам и молодым специалистам в поиске соседа и подборе жилья.</p>
+            <p className="description"><span className="spoiler"></span>Test: Who are you from Worm universe?</p>
+            <p className="description"><span className="spoiler">Contains spoilers for Parahuman series (Worm, Glow-Worm, Ward)</span></p>
 
         </div>
     );
