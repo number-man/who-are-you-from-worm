@@ -44,32 +44,30 @@ a {
     text-decoration: none;
     color: white;
     font-size: larger;
-    display: block;
-    border: solid;
+    display: flex;
+    align-items: center;
     border-radius: 12px;
-    border-color: #FF8959;
-    background-color: #FF8959;
+    color: #7a7a7a;
     transition: all .2s linear;
-}
-a:hover {
-    background-color: blue;
-    border-color: blue;
 }
 
 button {
     padding: 5px;
+    margin: 10px;
     text-decoration: none;
     color: white;
     font-size: larger;
     border: solid;
     border-radius: 12px;
-    border-color: #FF8959;
-    background-color: #FF8959;
-    transition: all .2s linear;
+    border-color: #ffffff;
+    background-color: #000000;
+    transition: all 2s linear;
+    background-size: 400%;
+    background-position: 60%;
 }
 button:hover {
-    background-color: blue;
-    border-color: blue;
+    background-image: url("../public/web.jpg");
+    transition: all 2s linear;
 }
 button.moderation-approve {
     font-weight: bold;
@@ -120,7 +118,12 @@ button.search-person:hover {
     background-color: #FF8959;
     color: #ffffff;
 }
-
+p {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+}
 p.description {
     font-weight: bold;
     font-size: larger;
@@ -129,6 +132,22 @@ p.description {
 }
 span.title {
     color: blue;
+    font-size: xx-large;
+}
+span.spoiler {
+    color: red;
+    font-weight: normal;
+    font-size: large;
+}
+span.bigheader {
+    font-size: xx-large;
+ }
+div.cred {
+    position: fixed;
+    bottom: 0;
+    left: 90%;
+    width: 100%;
+    color: #3a3a3a;
 }
 
 div.signup {
@@ -170,6 +189,31 @@ div.offer-price {
 image.profile-logo {
     padding: 0;
     margin: 0;
+}
+img.illustration {
+    height: 400px;
+    width: auto;
+}
+img.powers {
+    height: auto;
+    width: 50%;
+}
+img.final {
+    height: 650px;
+    width: auto;
+}
+div.test {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+}
+div.input-group {
+    /*display: flex;*/
+    margin-left: 38%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    line-height: 1.7;
 }
 #profile-logo {
     padding: 2px;

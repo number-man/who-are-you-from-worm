@@ -48,23 +48,23 @@ const AppRouter = () => {
     return (
         <div>
             <Router>
-                <nav className="navbar">
-                    <ul className="link-list left-links">
-                        <li className="nav-item left-link">
-                            <Link to="/" className="nav-link main-link">
-                                <div className="logo">
-                                    <img src={"home_logo.png"} alt="Главная" height="20px" width="auto"/>
-                                </div>
-                            </Link>
-                        </li>
-                        <li className="nav-item left-link">
-                            <Link to="/offers" className="nav-link ">Объявления</Link>
-                        </li>
-                    </ul>
-                    {Cookies.get("auth_token") ? profileLogo() : authButtons()}
+                {/*<nav className="navbar">*/}
+                {/*    <ul className="link-list left-links">*/}
+                {/*        <li className="nav-item left-link">*/}
+                {/*            <Link to="/" className="nav-link main-link">*/}
+                {/*                <div className="logo">*/}
+                {/*                    <img src={"home_logo.png"} alt="Главная" height="20px" width="auto"/>*/}
+                {/*                </div>*/}
+                {/*            </Link>*/}
+                {/*        </li>*/}
+                {/*        <li className="nav-item left-link">*/}
+                {/*            <Link to="/offers" className="nav-link ">Объявления</Link>*/}
+                {/*        </li>*/}
+                {/*    </ul>*/}
+                {/*    {Cookies.get("auth_token") ? profileLogo() : authButtons()}*/}
 
-                </nav>
-                <br/><br/>
+                {/*</nav>*/}
+                {/*<br/><br/>*/}
                 <main>
                     <Routes>
                         <Route path="/" element={<Main/>}/>
