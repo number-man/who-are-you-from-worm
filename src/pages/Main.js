@@ -326,7 +326,7 @@ const Main = () => {
                              alt={"pic"}
                         />
                     </div>
-                    <p className="description"><span className="spoiler">Contains spoilers for Parahumans series (Worm, Glow-Worm, Ward)</span></p>
+                    <p className="description"><span className="spoiler">Contains implications for some characters, but no direct spoilers. Proceed with caution.</span></p>
 
                 </div>
             );
